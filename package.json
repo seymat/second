@@ -1,0 +1,11 @@
+{
+  "name": "deneme",
+  "version": "1.0.0",
+  "description": "deneme",
+  "main": "10000",
+  "scripts": {
+    "test": "test"
+  },
+  "author": "seyma",
+  "license": "ISC"
+}

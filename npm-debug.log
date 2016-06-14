@@ -1,0 +1,89 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'publish' ]
+2 info using npm@3.3.12
+3 info using node@v5.5.0
+4 verbose publish [ '.' ]
+5 silly cache add args [ '.', null ]
+6 verbose cache add spec .
+7 silly cache add parsed spec Result {
+7 silly cache add   raw: '.',
+7 silly cache add   scope: null,
+7 silly cache add   name: null,
+7 silly cache add   rawSpec: '.',
+7 silly cache add   spec: 'D:\\RestoPOS\\_PROJELER\\ANGULAR\\En Yeni\\untitled1',
+7 silly cache add   type: 'directory' }
+8 verbose addLocalDirectory C:\Users\MMM\AppData\Roaming\npm-cache\deneme\1.0.0\package.tgz not in flight; packing
+9 info lifecycle deneme@1.0.0~prepublish: deneme@1.0.0
+10 silly lifecycle deneme@1.0.0~prepublish: no script for prepublish, continuing
+11 verbose tar pack [ 'C:\\Users\\MMM\\AppData\\Roaming\\npm-cache\\deneme\\1.0.0\\package.tgz',
+11 verbose tar pack   'D:\\RestoPOS\\_PROJELER\\ANGULAR\\En Yeni\\untitled1' ]
+12 verbose tarball C:\Users\MMM\AppData\Roaming\npm-cache\deneme\1.0.0\package.tgz
+13 verbose folder D:\RestoPOS\_PROJELER\ANGULAR\En Yeni\untitled1
+14 verbose addLocalTarball adding from inside cache C:\Users\MMM\AppData\Roaming\npm-cache\deneme\1.0.0\package.tgz
+15 silly cache afterAdd deneme@1.0.0
+16 verbose afterAdd C:\Users\MMM\AppData\Roaming\npm-cache\deneme\1.0.0\package\package.json not in flight; writing
+17 verbose afterAdd C:\Users\MMM\AppData\Roaming\npm-cache\deneme\1.0.0\package\package.json written
+18 silly publish { name: 'deneme',
+18 silly publish   version: '1.0.0',
+18 silly publish   description: 'deneme',
+18 silly publish   main: '10000',
+18 silly publish   scripts: { test: 'test' },
+18 silly publish   author: { name: 'seyma' },
+18 silly publish   license: 'ISC',
+18 silly publish   readme: 'ERROR: No README data found!',
+18 silly publish   _id: 'deneme@1.0.0',
+18 silly publish   _shasum: 'b881c0f66a821709498a7743574641279b8f32ff',
+18 silly publish   _from: '.' }
+19 verbose getPublishConfig undefined
+20 silly mapToRegistry name deneme
+21 silly mapToRegistry using default registry
+22 silly mapToRegistry registry https://registry.npmjs.org/
+23 silly mapToRegistry uri https://registry.npmjs.org/deneme
+24 verbose publish registryBase https://registry.npmjs.org/
+25 silly publish uploading C:\Users\MMM\AppData\Roaming\npm-cache\deneme\1.0.0\package.tgz
+26 verbose request uri https://registry.npmjs.org/deneme
+27 verbose request sending authorization for write operation
+28 info attempt registry request try #1 at 16:39:26
+29 verbose request using bearer token for auth
+30 verbose request id 6c6cf652f21d701d
+31 http request PUT https://registry.npmjs.org/deneme
+32 http 403 https://registry.npmjs.org/deneme
+33 verbose headers { 'content-type': 'application/json',
+33 verbose headers   'cache-control': 'max-age=300',
+33 verbose headers   'content-length': '100',
+33 verbose headers   'accept-ranges': 'bytes',
+33 verbose headers   date: 'Tue, 14 Jun 2016 13:39:23 GMT',
+33 verbose headers   via: '1.1 varnish',
+33 verbose headers   connection: 'keep-alive',
+33 verbose headers   'x-served-by': 'cache-ams4128-AMS',
+33 verbose headers   'x-cache': 'MISS',
+33 verbose headers   'x-cache-hits': '0',
+33 verbose headers   'x-timer': 'S1465911563.193095,VS0,VE714',
+33 verbose headers   vary: 'Accept-Encoding' }
+34 verbose request invalidating C:\Users\MMM\AppData\Roaming\npm-cache\registry.npmjs.org\deneme on PUT
+35 error publish Failed PUT 403
+36 verbose stack Error: you do not have permission to publish "deneme". Are you logged in as the correct user? : deneme
+36 verbose stack     at makeError (C:\Program Files\nodejs\node_modules\npm\node_modules\npm-registry-client\lib\request.js:264:12)
+36 verbose stack     at CachingRegistryClient.<anonymous> (C:\Program Files\nodejs\node_modules\npm\node_modules\npm-registry-client\lib\request.js:252:14)
+36 verbose stack     at Request._callback (C:\Program Files\nodejs\node_modules\npm\node_modules\npm-registry-client\lib\request.js:172:14)
+36 verbose stack     at Request.self.callback (C:\Program Files\nodejs\node_modules\npm\node_modules\request\request.js:198:22)
+36 verbose stack     at emitTwo (events.js:100:13)
+36 verbose stack     at Request.emit (events.js:185:7)
+36 verbose stack     at Request.<anonymous> (C:\Program Files\nodejs\node_modules\npm\node_modules\request\request.js:1082:10)
+36 verbose stack     at emitOne (events.js:95:20)
+36 verbose stack     at Request.emit (events.js:182:7)
+36 verbose stack     at IncomingMessage.<anonymous> (C:\Program Files\nodejs\node_modules\npm\node_modules\request\request.js:1009:12)
+37 verbose statusCode 403
+38 verbose pkgid deneme
+39 verbose cwd D:\RestoPOS\_PROJELER\ANGULAR\En Yeni\untitled1
+40 error Windows_NT 10.0.10240
+41 error argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "publish"
+42 error node v5.5.0
+43 error npm  v3.3.12
+44 error code E403
+45 error you do not have permission to publish "deneme". Are you logged in as the correct user? : deneme
+46 error If you need help, you may report this error at:
+46 error     <https://github.com/npm/npm/issues>
+47 verbose exit [ 1, true ]
